@@ -1,0 +1,42 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>br</groupId>
+	<artifactId>pondionstracker-bh</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<properties>
+		<maven.compiler.target>17</maven.compiler.target>
+		<maven.compiler.source>17</maven.compiler.source>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>br.pondionstracker</groupId>
+			<artifactId>data-module</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>br.pondionstracker</groupId>
+			<artifactId>integration-module</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-math3</artifactId>
+			<version>3.6.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.knowm.xchart</groupId>
+			<artifactId>xchart</artifactId>
+			<version>3.8.2</version>
+		</dependency>
+		<dependency>
+			<groupId>io.jenetics</groupId>
+			<artifactId>jpx</artifactId>
+			<version>3.0.1</version>
+		</dependency>
+	</dependencies>
+</project>
